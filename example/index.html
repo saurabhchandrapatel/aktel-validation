@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aktel Form validation</title>
+<!---------- CSS ------------>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./js/aktel.js"></script>
+
+
+<style type="text/css"> 
+    .error {  border: 1px solid #FF0303; }
+
+    input[type=checkbox] {
+          color: #ccc;
+          font-style: italic;
+          border: 0px solid #C9C9C9;
+          box-shadow: none;
+          width: 13px;
+    } 
+
+    
+    input[type=checkbox] + label {
+          color: #ccc;
+          font-style: italic;          
+    } 
+    
+    input[type=checkbox].error + label {
+          color: #EC7F7F;
+          font-style: normal;
+        }
+
+    input[type=checkbox]:checked + label {
+          color: green;
+          font-style: normal;
+        }
+
+</style>
+</head>
+
+<body>
+
+    <!--BEGIN #signup-form -->
+    <div id="signup-form">
+        
+        <!--BEGIN #subscribe-inner -->
+        <div id="signup-inner">
+        
+        	<div class="clearfix" id="header">
+        		<img id="signup-icon" src="https://pbs.twimg.com/profile_images/483898385963839488/z_u7rvY9.png" alt="aktel" />
+                <h1>Aktel Form validation</h1> 
+            </div>
+			 
+
+            
+            <form id="validate" action="" method="post">
+            	
+                <p>
+
+                <label for="name">Your Name *</label>
+                <input id="name" type="text" class="required name" name="name" value="" />
+                </p>
+                
+                <p>
+                <label for="company">Company Name</label>
+                <input id="company" type="text" class="required" name="company" value="" />
+                </p>
+                
+                <p>
+
+                <label for="email">Email *</label>
+                <input id="email" type="text" class="required email" name="email" value="" />
+                </p>
+                
+                <p>
+                <label for="website">Website</label>
+                <input id="website" type="text" class="required url" name="website" value="http://" />
+                </p>
+                
+                <p> 
+                <label for="phone">Phone</label>
+                <input id="phone" type="text" class="required phone" name="phone" value="" />
+                </p>
+                
+                <p>
+                <label for="country">Country</label>
+                <input id="Country" type="text" class="required name" name="country" value="" />
+                </p>
+                
+                <p>
+                <label for="country">Credit Card</label>
+                <input id="Country" type="text" class="required credit_card" name="credit_card" value="" />
+                </p>
+
+
+
+                <p>
+                <label for="country">Number</label>
+                <input id="Country" type="text" class="required number" name="number" value="" />
+                </p>
+
+
+                <p>
+                <label for="country">Pin Code India</label>
+                <input id="Country" type="text" class="required pincodein" name="pincodein" value="" />
+                </p>
+
+                <p>
+                <label for="country">Pin Code US</label>
+                <input id="Country" type="text" class="required pincodeUS" name="pincodeUS" value="" />
+                </p> 
+
+
+                 <p>
+                <label for="country">Date</label>
+                <input id="Country" type="text" class="required date" name="date" value="" />
+                </p> 
+
+                
+                <p>
+                <label for="profile">Tell us about yourself *</label>
+                <textarea name="profile" class="required " id="profile" cols="30" rows="10"></textarea>
+
+                </p>
+                    
+
+
+                <p>
+                <input name="agree" class="checked" type="checkbox" value="yes">
+                <label for="country"> I agree to the terms and conditions.</label> 
+                </p>
+
+
+                <p>
+
+                <button id="submit" type="submit">Submit</button>
+                </p>
+                
+            </form>
+            
+		<div id="required">
+		<p>* Required Fields<br/>
+		 </p>
+		</div>
+
+
+            </div> 
+        <!--END #signup-inner -->
+        </div>
+        
+    <!--END #signup-form -->   
+    </div>
+
+</body>
+</html>
