@@ -1,4 +1,4 @@
-Aktel Validation
+Aktel Form Validation
 ================
 
 A simple jquery to validate your form  
