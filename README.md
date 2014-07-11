@@ -34,3 +34,9 @@ Example
 ========
 
         <input type="text" class="required credit_card" name="credit_card" value="" />
+        
+        <input id="name" type="text" class="required name" name="name" value="" />
+        
+        <input id="email" type="text" class="required email" name="email" value="" />
+        
+        <input id="phone" type="text" class="required phone" name="phone" value="" />
