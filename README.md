@@ -1,7 +1,9 @@
 Aktel Form Validation
 ================
 
-A simple jquery to validate your form  
+Licensed under the MIT license
+
+A simple Aktel Form Validation can be used to validate data in HTML forms before sending off the content to a server.
 
    add class to your input field . 
         
@@ -14,21 +16,21 @@ A simple jquery to validate your form
         - number : for number
         - pincodein : india pic code
         - pincodeUS : US pin code 
+        - pincodeCA : pin code for Canada
         - date : date formate i.e 10/10/2012 or 10.10.2001 or 10-10-2001
         - checked : to check checkbox.
+        - radiochecked : to radio button
         
         
 
 Demo
 =====
 
-* [aktel validation demo ] 
+* http://www.aktel.in/github/aktel-validation 
 
 
 
 Example
 ========
 
-
-        <input id="credit_card" type="text" class="required credit_card" name="credit_card" value="" />
-
+        <input type="text" class="required credit_card" name="credit_card" value="" />
