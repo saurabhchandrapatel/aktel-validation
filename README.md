@@ -1,7 +1,7 @@
 Aktel Validation
 ================
 
-A simple jquery to validate your form 
+A simple jquery to validate your form  
 
    add class to your input field . 
         
@@ -22,4 +22,13 @@ A simple jquery to validate your form
 Demo
 =====
 
-* [aktel validation demo ]
+* [aktel validation demo ] 
+
+
+
+Example
+========
+
+
+        <input id="credit_card" type="text" class="required credit_card" name="credit_card" value="" />
+
