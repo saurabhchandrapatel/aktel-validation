@@ -26,7 +26,7 @@ A simple Aktel Form Validation can be used to validate data in HTML forms before
 Demo
 =====
 
-* http://www.aktel.in/github/aktel-validation 
+* http://www.aktel.in/github/aktel-validation/example/
 
 
 
